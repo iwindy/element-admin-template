@@ -77,6 +77,13 @@ export default {
     logIn: 'Login',
     username: 'Username',
     password: 'Password',
+    code: 'Verification code',
+    validate: {
+      username_required: 'Username is required',
+      password_length: 'The password can not be less than 8 digits',
+      code_length: 'The length of the verification code is 4 digits'
+    },
+    password_length_tips: 'The password can not be less than 8 digits',
     any: 'any',
     thirdparty: 'Or connect with',
     thirdpartyTips: 'Can not be simulated on local, so please combine you own business simulation! ! !'

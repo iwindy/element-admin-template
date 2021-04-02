@@ -77,6 +77,12 @@ export default {
     logIn: '登录',
     username: '账号',
     password: '密码',
+    code: '验证码',
+    validate: {
+      username_required: '账号不能为空',
+      password_length: '登录密码长度不能少于8位',
+      code_length: '验证码长度为4位'
+    },
     any: '随便填',
     thirdparty: '第三方登录',
     thirdpartyTips: '本地不能模拟，请结合自己业务进行模拟！！！'
