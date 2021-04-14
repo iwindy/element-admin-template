@@ -15,3 +15,18 @@ export function getCaptcha(data) {
     data
   })
 }
+
+export function getInfo(token) {
+  return request({
+    url: '/vue-element-admin/auth/info',
+    method: 'get',
+    params: { token }
+  })
+}
+
+export function logout() {
+  return request({
+    url: '/vue-element-admin/auth/logout',
+    method: 'post'
+  })
+}
